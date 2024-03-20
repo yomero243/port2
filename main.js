@@ -8,7 +8,7 @@ let camera, scene, renderer, controls;
 
 // Inicializar la cámara
 camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.25, 1000);
-camera.position.set(5.5, 5.5, 10.0);
+camera.position.set(30.5, 10.5, 10.0);
 
 // Inicializar la escena
 scene = new THREE.Scene();
